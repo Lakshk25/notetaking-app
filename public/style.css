@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #3a4142;
+    --text-color:  #c59797;
+    --heading-color : #c5c1c1;
+    --white-color : #fff;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+h1, h2, h3{
+    color: var(--heading-color);
+}
+
+p, div{
+    color: var(--text-color);
+}
+
+button{
+    background-color: green;
+    color: red;
+}
+
+button{
+    background-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
+}
+
+.addnote{
+    width: 60vw;
+    padding: 5px;
+}
+
+#description{
+    min-height: 5rem;
+}
+
+
+
+
+

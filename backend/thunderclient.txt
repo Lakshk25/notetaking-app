@@ -1,0 +1,75 @@
+localhost:5000/api/auth/login
+
+Accept: */*
+User-Agent: Thunder Client (https://www.thunderclient.com)
+Content-Type: application/json
+
+{
+  "email": "adcd@gmail.com",
+  "password": "12345"
+}
+
+http://127.0.0.1:5000/api/auth/createuser
+
+{
+  "name":"example1",
+  "email": "ex1@gmail.com",
+  "password": "12345"
+}
+
+Accept: */*
+User-Agent: Thunder Client (https://www.thunderclient.com)
+
+
+localhost:5000/api/auth/getuser
+
+Accept: */*
+User-Agent: Thunder Client (https://www.thunderclient.com)
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTY3MGQ3YmM4ZDkzMmMzNjljNGNjIn0sImlhdCI6MTY5MDkyNDE0NX0.CY-HTxWTwAMGGQPdwqA9mDG7KhoijzNdCC3bvcGIjh8
+
+
+localhost:5000/api/notes/fetchallnotes
+
+Accept: */*
+User-Agent: Thunder Client (https://www.thunderclient.com)
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTY3MGQ3YmM4ZDkzMmMzNjljNGNjIn0sImlhdCI6MTY5MDkyNDE0NX0.CY-HTxWTwAMGGQPdwqA9mDG7KhoijzNdCC3bvcGIjh8
+
+
+localhost:5000/api/notes/addnote
+
+
+Accept: */*
+User-Agent: Thunder Client (https://www.thunderclient.com)
+Content-Type: application/json
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTY3MGQ3YmM4ZDkzMmMzNjljNGNjIn0sImlhdCI6MTY5MDkyNDE0NX0.CY-HTxWTwAMGGQPdwqA9mDG7KhoijzNdCC3bvcGIjh8
+
+
+
+{
+  "title": "morninggg title",
+  "description": "wake up",
+  "tag": "personal"
+}
+
+localhost:5000/api/notes/updatenote/64c9f74160ba858e2ccb0eb
+
+Accept: */*
+User-Agent: Thunder Client (https://www.thunderclient.com)
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTY3MGQ3YmM4ZDkzMmMzNjljNGNjIn0sImlhdCI6MTY5MDkyNDE0NX0.CY-HTxWTwAMGGQPdwqA9mDG7KhoijzNdCC3bvcGIjh8
+Content-Type: application/json
+
+
+  {
+    "title": "morning title updated",
+    "description": "wake up updated",
+    "tag": "perrrr"
+  }
+
+localhost:5000/api/notes/deletenote/64c9f73860ba858e2ccb0eb5
+
+
+Accept: */*
+User-Agent: Thunder Client (https://www.thunderclient.com)
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjRjOTY3MGQ3YmM4ZDkzMmMzNjljNGNjIn0sImlhdCI6MTY5MDkyNDE0NX0.CY-HTxWTwAMGGQPdwqA9mDG7KhoijzNdCC3bvcGIjh8
+Content-Type: application/json
